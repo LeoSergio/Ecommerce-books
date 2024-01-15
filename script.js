@@ -1,5 +1,5 @@
 //uma mensagem de entrada
-
+/*
 Swal.fire({
         title: "Seja Bem Vindo!",
         text: "Obrigado Pela Preferência.",
@@ -8,6 +8,8 @@ Swal.fire({
         imageHeight: 200,
         imageAlt: "Custom image"
       });
+*/
+
 
 
 

@@ -1,6 +1,6 @@
 
 :root{
-    --background-header: #ffffff;
+    --background-header: #807272;
     --body: #e0dddd;
     --menu:#978989;
     --menu-lateral:#d4cbcb;
@@ -28,27 +28,38 @@ html{
 .cabecalho {
     display:flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-direction: row;
     flex-wrap: wrap;
     background-color: var(--background-header);
     
 }
 
-.cabecalho img{
-    width:50px;
+.nav-bar ul{
+    width: 100%;
     display:flex;
-    border:1px solid;
-    border-radius: 50%;
-    margin-top:0.5rem;
-    margin-right:auto;
-    margin-left:1rem;
+    justify-content: center;
     
 }
-.nav-bar{
-    display: none;
+
+
+.logo h1{
+    display:flex;
+    color:#fff;
+    font-size:1.5em;
+    border:1px solid red;
+    
+    
 }
-.cabecalho span{
+.logo > h1 > span{
+    color:rgb(7, 30, 239);
+    border:none;
+    padding:0;
+    display: inline;
+    
+    
+}
+.btnLateral > span{
     display:flex;
     justify-content: center;
     align-items: center;
@@ -65,6 +76,9 @@ html{
     padding:0 1rem;
     text-decoration: none;
     color:black;
+}
+.btnLateral{
+    display:none;
 }
 #icon{  /*Icone menu*/
     color:#000;
