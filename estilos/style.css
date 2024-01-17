@@ -26,44 +26,43 @@ html{
     scroll-behavior: smooth;
 }
 .cabecalho {
-    display:flex;
-    align-items: center;
+    display: flex;
     justify-content: space-between;
-    flex-direction: row;
+    align-items: center;
     flex-wrap: wrap;
+    flex-direction: row;
     background-color: var(--background-header);
     
 }
-
-.nav-bar ul{
-    width: 100%;
-    display:flex;
-    justify-content: center;
-    
+.cabecalho a{
+    text-decoration: none;
+    color:black;
 }
-
-
-.logo h1{
+.logo{
     display:flex;
-    color:#fff;
-    font-size:1.5em;
-    border:1px solid red;
-    
-    
-}
-.logo > h1 > span{
-    color:rgb(7, 30, 239);
-    border:none;
-    padding:0;
-    display: inline;
-    
-    
-}
-.btnLateral > span{
-    display:flex;
+    margin:1rem 0 1rem 1rem ;
     justify-content: center;
     align-items: center;
-    margin-right:1rem;
+    
+}
+.logo h1{
+    color:rgb(7, 30, 239); 
+    font-size: 2.1em; 
+}
+.logo > h1 > span{
+    color:#fff;
+    border:none;
+    padding:0;
+}
+.nav-bar ul{
+    display:flex;
+    gap:2rem;  
+    font-weight: bolder;
+}
+
+.btnLateral > span{
+    display:flex;
+    margin:1rem;
     border:1px solid;
     padding:0 0.5rem;
     border-radius: 20px;
@@ -71,11 +70,10 @@ html{
     color:#000;
     
 }
-.cabecalho a{
-    display:flex;
-    padding:0 1rem;
-    text-decoration: none;
-    color:black;
+.car{
+    margin: 1rem;
+    font-size: 2.1em;
+    cursor:pointer;
 }
 .btnLateral{
     display:none;
