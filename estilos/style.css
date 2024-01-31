@@ -33,7 +33,7 @@ html{
     flex-direction: row;
     background-color: var(--background-header);
     border:1px solid;
-    position: fixed;
+    position:fixed;
     top:0;
     width:100%;
     z-index: 1;
@@ -157,17 +157,14 @@ html{
     text-decoration: none;
 }
 .container{
+    border:1px solid red;
     display:flex;
-    position: relative;
-    flex-basis: 50%;
-    justify-content:center;
+    justify-content:space-around;
     align-items: center;
     flex-wrap: wrap;
     flex-direction: row;
-    margin:3.5rem 0;
     padding:1rem;
-    
-       
+    margin-top:3.5rem;      
 }
 
 .header-left{
@@ -200,7 +197,7 @@ html{
     overflow: hidden;
 }
 .header-right h1{
-    
+    border:1px solid red;
 }
 .carrossel{
     display:flex;
